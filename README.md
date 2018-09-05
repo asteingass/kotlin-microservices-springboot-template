@@ -1,5 +1,5 @@
 # Kotlin Microservices Springboot Template
-Each server has a dockerfile. They can be found in the `Docker` folder. They basically take the generated jar file and starting them. All of the servers also have a docker maven plugin to automatically build and run inside a container.
+> WORK IN PROGRESS
 
 ### Basic Setup / Structure
 You have to start the stack in the right order with following command in each root folder: `mvn spring-boot:run`
@@ -9,7 +9,7 @@ You have to start the stack in the right order with following command in each ro
 4. Start the [Gateway Server](gateway)
 
 ### Docker
-> Not yet implemented
+Each server has a dockerfile. They can be found in the `Docker` folder. They basically take the generated jar file and starting them. All of the servers also have a docker maven plugin to automatically build and run inside a container.
 
 ## Configuration-Server (Spring Cloud - Config Server)
 A Configuration Server allows us to serve any microservice the configuration that it may need, so when a microservice starts, it will require no more configurations than just the one from where the Configuration Service is located.
