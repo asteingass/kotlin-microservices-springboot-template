@@ -1,5 +1,5 @@
 # Kotlin Microservices Springboot Template
-> Everything is still in progress
+Each server has a dockerfile. They can be found in the `Docker` folder. They basically take the generated jar file and starting them. All of the servers also have a docker maven plugin to automatically build and run inside a container.
 
 ### Basic Setup / Structure
 You have to start the stack in the right order with following command in each root folder: `mvn spring-boot:run`
