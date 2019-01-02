@@ -1,5 +1,4 @@
 # Kotlin Microservices Springboot Template
-> WORK IN PROGRESS
 
 ### Basic Setup / Structure
 You have to start the stack in the right order with following command in each root folder: `mvn spring-boot:run`
